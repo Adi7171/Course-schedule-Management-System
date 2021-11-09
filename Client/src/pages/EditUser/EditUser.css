@@ -1,0 +1,107 @@
+.editForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* 
+.editForm input,
+button {
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+} */
+
+.adminForm button:hover {
+  cursor: pointer;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.btn {
+  width: 190px;
+}
+
+.btntbl {
+  width: 100px;
+  height: 30px;
+}
+
+.Logo {
+  height: 900px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.13)),
+    url(../Login/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.editForm input {
+  margin: 10px;
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
+  /* border-radius: 25px; */
+  border: none;
+  background-color: rgba(148, 142, 142, 0.692);
+  opacity: 0.9;
+  /* background-color: rgb(85, 12, 145); */
+  color: white;
+  text-align: center;
+}
+.sub {
+  margin: 10px;
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
+  /* border-radius: 25px; */
+  border: none;
+  background-color: rgba(202, 198, 198, 0.692);
+  opacity: 0.9;
+  /* background-color: rgb(85, 12, 145); */
+  color: black;
+
+  padding-top: 4px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+  /* padding-left: 20px; */
+  font-size: 25px;
+}
+
+.editForm button {
+  margin: 10px;
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 25px;
+  /* border-color: rgb(30, 98, 201); */
+  border: none;
+  background-color: rgba(255, 218, 185, 0.808);
+  /* box-shadow: 2px 1px 3px 1px rgb(3, 52, 117); */
+}
+.editForm button:hover {
+  cursor: pointer;
+  box-shadow: 2px 1px 3px 1px rgb(3, 52, 117);
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}

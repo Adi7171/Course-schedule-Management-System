@@ -1,0 +1,18 @@
+.LogoF {
+  height: 1200px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.13)),
+    url(../pages/Login/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.tbl {
+  background-color: rgba(0, 0, 0, 0.24);
+  border-radius: 35px;
+
+  padding: 20px;
+  margin-bottom: 60px;
+}
