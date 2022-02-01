@@ -1,5 +1,7 @@
 # TimeMangementSystem
 
+Made using Mysql, Express ,nodejs and React
+
 
 <img width="1438" alt="Screenshot 2022-02-01 at 1 52 06 PM" src="https://user-images.githubusercontent.com/84470487/151934656-8575dc2a-3070-4a1e-ac3c-b85572330e3f.png">
 
